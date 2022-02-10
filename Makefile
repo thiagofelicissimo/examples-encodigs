@@ -1,5 +1,5 @@
 .POSIX:
-SRC = base.lp coq.lp systemF.lp coc.lp
+SRC = ECoC/theory.lp ECoC/nat.lp ECoC/connectors.lp SystemF/theory.lp SystemF/nat.lp SystemF/listnat.lp
 OBJ = $(SRC:.lp=.lpo)
 .SUFFIXES:
 
